@@ -1,0 +1,31 @@
+# Virtual Environment 
+maize_env/ 
+venv/ 
+env/ 
+ 
+# Datasets (too large for GitHub) 
+data/ 
+plantvillage dataset/ 
+ 
+# Model files (too large) 
+models/*.h5 
+models/*.tflite 
+models/*.keras 
+ 
+# Jupyter Notebook checkpoints 
+.ipynb_checkpoints/ 
+__pycache__/ 
+*.pyc 
+ 
+# Logs and results (can be large) 
+logs/ 
+results/*.png 
+results/*.jpg 
+ 
+# OS files 
+.DS_Store 
+Thumbs.db 
+desktop.ini 
+ 
+# Kaggle credentials 
+kaggle.json 
