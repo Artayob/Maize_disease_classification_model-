@@ -5,7 +5,12 @@ env/
  
 # Datasets (too large for GitHub) 
 data/ 
-plantvillage dataset/ 
+# Datasets (ignore subdirectories and images, but allow README)
+data/*/
+data/**/*.jpg
+data/**/*.png
+data/**/*.jpeg
+!data/README.md
  
 # Model files (too large) 
 models/*.h5 
